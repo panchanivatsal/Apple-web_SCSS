@@ -1,0 +1,157 @@
+$text-white: #fff;
+$text-black: #000;
+$text-blue: #3459d0;
+$text-sky: #d8d8d83b;
+$text-gary: #6e6e73a8;
+$boader: #f2f2f2;
+$text-color:#86868b;
+$daay-sky: rgba(172, 226, 239, 0.808);
+
+@mixin kalu {
+    color: $text-blue;
+    font-size: 24px;
+    transition: all 1.2s;
+}
+
+@mixin vatsal {
+    background-color: $text-white;
+    padding: 10px 20px;
+    color: $text-black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin daku {
+    background-color: $text-blue;
+    padding: 10px 20px;
+    color: $text-white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin mamu {
+
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.btn-ctn {
+    .by-btn {
+        @include daku;
+    }
+
+    p {
+        @include kalu;
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+}
+
+.airtag {
+    background-color: $boader;
+    padding: 50px 0;
+
+    .airtags-img {
+        h2 {
+            font-size: 48px;
+        }
+
+        h3 {
+            font-size: 72px;
+        }
+    }
+}
+
+// section-4
+
+.dec-tag {
+    padding: 50px 0;
+    height: 50vh;
+
+    .tag-contenat {
+        p {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+    h2 {
+        color: $text-color;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 26px;
+    }
+}
+
+.mobail {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/502.jpg');
+}
+
+.orarnge-tag {
+    padding: 20px 0;
+}
+
+.Ping , .Ping-2 , .Ping-3 , .Ping-4{
+    padding: 20px 0 0;
+    background-color: $boader;
+    h2{
+        font-size: 64px;
+        text-align: center;
+    }
+    .ping-con{
+        padding-left: 30px;
+        h2{
+            font-size: 64px;
+
+        }
+        h3{
+            font-size: 24px;
+            font-weight: 500;
+            color:$text-color ;
+        }
+    }
+}
+.Ping{
+    background-color: $text-white;
+    }
+.Ping-2{
+    background-color: $boader;
+    .xl-6{
+        h2 ,h3{
+            text-align: left;
+        }
+        
+        img{
+            object-fit: cover;
+            overflow: hidden;
+        }
+    }
+
+}
+.Ping-4{
+    padding: 0;
+    background-color: $text-white;
+    .Privacy{
+        .pr{
+            font-size: 24px;
+            padding: 20px;
+            font-weight: 600;
+            color: $text-color;
+        }
+    }
+}
+/*# sourceMappingURL=airtag.css.map */

@@ -1,0 +1,468 @@
+body {
+  background-color: #000;
+}
+
+.border {
+  border: 10px solid rgba(216, 216, 216, 0.231372549);
+  width: 100%;
+  background-color: rgba(216, 216, 216, 0.231372549);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.container-2 {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+}
+
+.main {
+  padding: 10px 0;
+  background-color: #000;
+}
+.main i {
+  color: #fff;
+}
+.main ul li {
+  padding: 0 20px;
+}
+.main ul li a {
+  color: #fff;
+  font-size: 16px;
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 200;
+  transition: all 1.2s;
+}
+.main ul li a:hover {
+  color: #3459d0;
+}
+
+.all-item {
+  position: fixed;
+  padding: 10px 0;
+  align-items: center;
+}
+.all-item .img-1 .text {
+  text-align: center;
+}
+.all-item .img-1 .text h5 {
+  font-weight: 500;
+}
+.all-item .img-1 .text span {
+  color: red;
+  text-align: center;
+}
+.all-item .img-1 .text span:hover {
+  color: #3459d0;
+}
+
+.iphone-logo h2 {
+  color: #efefef;
+  font-size: 24px;
+}
+.iphone-logo .i-buy-sec h3 {
+  font-size: 16px;
+  color: #848488;
+  padding: 0 10px;
+  font-weight: 400;
+  transition: all 1.2s;
+}
+.iphone-logo .i-buy-sec h3:hover {
+  color: #f2f2f2;
+}
+.iphone-logo .i-buy-sec a {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+  transition: all 1.2s;
+}
+.iphone-logo .i-buy-sec a:hover {
+  color: #3459d0;
+}
+.iphone-logo .i-buy-sec .btn-ctn .by-btn {
+  background-color: #3459d0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+.iphone-logo .i-buy-sec .btn-ctn p {
+  color: #3459d0;
+  font-size: 24px;
+  transition: all 1.2s;
+}
+.iphone-logo .i-buy-sec .btn-ctn p:hover {
+  text-decoration: underline;
+}
+
+.min-text {
+  border-top: 0.5px solid #fff;
+  padding: 15px 0;
+  background-color: #161616;
+  color: #fff;
+}
+.min-text p {
+  font-size: 13px;
+}
+.min-text p span {
+  color: #3459d0;
+}
+.min-text p span:hover {
+  text-decoration: underline;
+}
+
+.banner-2 {
+  background-image: url("../img-2/101.jpg");
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.banner-2 h2 {
+  color: #fff;
+  font-size: 72px;
+  line-height: 100px;
+}
+
+.iphone-2-diffrant {
+  background-color: #161616;
+  padding: 60px 0;
+}
+.iphone-2-diffrant h2 {
+  color: #efefef;
+  font-size: 48px;
+}
+.iphone-2-diffrant span {
+  color: #848488;
+  font-size: 24px;
+}
+.iphone-2-diffrant .btn-ctn {
+  margin-top: 50px;
+}
+.iphone-2-diffrant .btn-ctn .by-btn {
+  background-color: #3459d0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+.iphone-2-diffrant .btn-ctn p {
+  color: #3459d0;
+  font-size: 24px;
+  transition: all 1.2s;
+}
+.iphone-2-diffrant .btn-ctn p:hover {
+  text-decoration: underline;
+}
+
+.Dynamic {
+  background-color: #161616;
+}
+.Dynamic .Dynamic-con {
+  padding: 50px 100px;
+  background-color: #000;
+}
+.Dynamic .Dynamic-con h2 {
+  font-size: 72px;
+  color: #efefef;
+}
+.Dynamic .Dynamic-con .dy-co {
+  margin-top: 100px;
+}
+.Dynamic .Dynamic-con .dy-co p {
+  color: #848488;
+  font-size: 24px;
+}
+.Dynamic .Dynamic-con .dy-co span {
+  color: #f2f2f2;
+}
+.Dynamic .Dynamic-con .dy-img {
+  padding-top: 50px;
+}
+.Dynamic .Dynamic-con .two-dy-img-co .xl-6 {
+  padding: 50px;
+}
+.Dynamic .Dynamic-con .two-dy-img-co .xl-6 p {
+  font-size: 24px;
+  color: #848488;
+}
+.Dynamic .Dynamic-con .two-dy-img-co .xl-6 p span {
+  color: #efefef;
+}
+.Dynamic .Dynamic-con .ios p {
+  color: #848488;
+  font-size: 24px;
+}
+.Dynamic .Dynamic-con .ios span {
+  font-size: 24px;
+  color: #efefef;
+}
+
+.camo,
+.como-2 {
+  padding: 50px 0 0;
+  background-color: #161616;
+}
+.camo .camo-img,
+.como-2 .camo-img {
+  background-color: #000;
+}
+.camo .camo-img .Main-camera,
+.camo .camo-img .Main-camera-2,
+.como-2 .camo-img .Main-camera,
+.como-2 .camo-img .Main-camera-2 {
+  height: 90vh;
+  background-image: url("../img-2/105.jpg");
+  margin-left: 15%;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: cover;
+  padding: 50px;
+}
+.camo .camo-img .Main-camera h2,
+.camo .camo-img .Main-camera-2 h2,
+.como-2 .camo-img .Main-camera h2,
+.como-2 .camo-img .Main-camera-2 h2 {
+  color: #000;
+  font-size: 56px;
+}
+
+.advanced {
+  background-color: #161616;
+}
+.advanced .two-dy-img-co {
+  padding: 100px 0;
+  background-color: #000;
+}
+.advanced .two-dy-img-co .xl-6 img {
+  background-size: cover;
+}
+.advanced .two-dy-img-co p {
+  font-size: 24px;
+  color: #848488;
+  font-weight: 500;
+}
+.advanced .two-dy-img-co span {
+  color: #fff;
+}
+
+.camo .camo-img .Main-camera-2 {
+  background-image: url("../img-2/116.jpg");
+}
+.camo .camo-img .Main-camera-2 h2 {
+  color: #fff;
+}
+
+.water {
+  background-color: #161616;
+  padding: 50px 0;
+}
+.water .water-2 {
+  height: 100vh;
+  background-position: center;
+  background-image: url("../img-2/114.jpg");
+  padding: 50px 0;
+}
+.water .water-2 h2 {
+  font-size: 48px;
+  text-align: center;
+  height: 100%;
+  margin: 28% 0;
+  color: #fff;
+}
+
+.iPhone-all {
+  padding: 50px 0;
+  background-color: #161616;
+  color: #fff;
+}
+.iPhone-all h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.iPhone-all .i-img {
+  padding: 50px 0;
+  text-align: center;
+}
+.iPhone-all .xl-3 {
+  padding: 0 5px;
+}
+.iPhone-all .xl-3 .all-tr {
+  padding: 20px 0;
+}
+.iPhone-all .xl-3 span {
+  color: red;
+  line-height: 30px;
+  font-size: 14px;
+}
+.iPhone-all .xl-3 .dic-lo {
+  border-bottom: 2px solid rgba(216, 216, 216, 0.231372549);
+}
+.iPhone-all .xl-3 .dic-lo p {
+  font-size: 17px;
+  margin: 20px;
+}
+.iPhone-all .xl-3 .dic-lo h6 {
+  line-height: 20px;
+  margin: 11px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.iPhone-all .xl-3 .dic-lo .btn-ctn .by-btn {
+  background-color: #3459d0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 10px;
+  transition: all 1.2s;
+}
+.iPhone-all .xl-3 .dic-lo .by-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.iPhone-all .xl-3 .dic-lo a .pi {
+  color: #3459d0;
+  transition: all 1.2s;
+}
+.iPhone-all .xl-3 .dic-lo .pi:hover,
+.iPhone-all .xl-3 .dic-lo .smart:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.iPhone-all .xl-3 .sub-dec {
+  margin: 50px 0;
+}
+.iPhone-all .xl-3 .sub-dec h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+.iPhone-all .xl-3 .sub-dec p {
+  margin: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.iPhone-all .xl-3 .all-features {
+  margin: 30px 0;
+}
+.iPhone-all .xl-3 .all-features img {
+  padding: 50px 0 0;
+}
+.iPhone-all .xl-3 .all-features h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.iPhone-all .xl-3 .all-features h5 {
+  font-size: 14px;
+  line-height: 30px;
+  color: #161616;
+  font-weight: 400;
+}
+.iPhone-all .xl-3 .ios-icon {
+  margin: 30px 0;
+}
+.iPhone-all .xl-3 .ios-icon h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.iPhone-all .xl-3 .s {
+  padding: 20px 0;
+  border-bottom: 3px solid rgba(216, 216, 216, 0.231372549);
+}
+
+.delivery {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+.delivery .logo-img {
+  width: 100px;
+  margin: auto;
+}
+.delivery .smart {
+  color: #3459d0;
+  font-size: 24px;
+  transition: all 1.2s;
+}
+.delivery .smart:hover {
+  text-decoration: underline;
+}
+.delivery .xl-4 {
+  padding: 20px;
+}
+.delivery .xl-4 h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.delivery .xl-4 p {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+}
+.delivery .xl-4 .smart {
+  color: #3459d0;
+  font-size: 24px;
+  transition: all 1.2s;
+}
+.delivery .xl-4 .smart:hover {
+  text-decoration: underline;
+}
+.delivery h2 {
+  line-height: 50px;
+  font-size: 48px;
+}
+
+.decsprision {
+  background-color: #000;
+  color: #fff;
+}
+.decsprision .menu-dec-i {
+  padding: 50px 0 10px;
+  border-bottom: 1px solid #fff;
+}
+.decsprision .menu-dec-i p {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.apple-icons {
+  padding: 50px 0 5px;
+}
+.apple-icons h5 img {
+  width: 20px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+}
+.footer .xl-2 h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.footer .xl-2 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 0;
+  transition: all 1.2s;
+}
+.footer .xl-2 h3:hover {
+  color: #3459d0;
+  text-decoration: underline;
+}/*# sourceMappingURL=iphonnepro.css.map */

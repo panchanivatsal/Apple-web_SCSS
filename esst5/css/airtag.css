@@ -1,0 +1,102 @@
+.btn-ctn .by-btn {
+  background-color: #3459d0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+.btn-ctn p {
+  color: #3459d0;
+  font-size: 24px;
+  transition: all 1.2s;
+}
+.btn-ctn p:hover {
+  text-decoration: underline;
+}
+
+.airtag {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+.airtag .airtags-img h2 {
+  font-size: 48px;
+}
+.airtag .airtags-img h3 {
+  font-size: 72px;
+}
+
+.dec-tag {
+  padding: 50px 0;
+  height: 50vh;
+}
+.dec-tag .tag-contenat p {
+  text-align: center;
+  font-size: 30px;
+}
+.dec-tag h2 {
+  color: #86868b;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.mobail {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/502.jpg");
+}
+
+.orarnge-tag {
+  padding: 20px 0;
+}
+
+.Ping, .Ping-2, .Ping-3, .Ping-4 {
+  padding: 20px 0 0;
+  background-color: #f2f2f2;
+}
+.Ping h2, .Ping-2 h2, .Ping-3 h2, .Ping-4 h2 {
+  font-size: 64px;
+  text-align: center;
+}
+.Ping .ping-con, .Ping-2 .ping-con, .Ping-3 .ping-con, .Ping-4 .ping-con {
+  padding-left: 30px;
+}
+.Ping .ping-con h2, .Ping-2 .ping-con h2, .Ping-3 .ping-con h2, .Ping-4 .ping-con h2 {
+  font-size: 64px;
+}
+.Ping .ping-con h3, .Ping-2 .ping-con h3, .Ping-3 .ping-con h3, .Ping-4 .ping-con h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #86868b;
+}
+
+.Ping {
+  background-color: #fff;
+}
+
+.Ping-2 {
+  background-color: #f2f2f2;
+}
+.Ping-2 .xl-6 h2, .Ping-2 .xl-6 h3 {
+  text-align: left;
+}
+.Ping-2 .xl-6 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.Ping-4 {
+  padding: 0;
+  background-color: #fff;
+}
+.Ping-4 .Privacy .pr {
+  font-size: 24px;
+  padding: 20px;
+  font-weight: 600;
+  color: #86868b;
+}
+
+/*# sourceMappingURL=airtag.css.map */

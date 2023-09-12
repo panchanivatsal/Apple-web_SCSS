@@ -1,0 +1,283 @@
+$text-white: #fff;
+$text-black: #000;
+$text-blue: #3459d0;
+$text-sky: #d8d8d83b;
+$text-gary: #6e6e73a8;
+$boader: #f2f2f2;
+$text-color: #86868b;
+$daay-sky: rgba(172, 226, 239, 0.808);
+
+.container-2 {
+    max-width: 1240px;
+}
+
+@mixin kalu {
+    color: $text-blue;
+    font-size: 24px;
+    transition: all 1.2s;
+}
+
+@mixin vatsal {
+    background-color: $text-white;
+    padding: 10px 20px;
+    color: $text-black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin daku {
+    background-color: $text-blue;
+    padding: 10px 20px;
+    color: $text-white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin mamu {
+
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+body {
+    background-color: $boader;
+}
+.all-item{
+    .img-1{
+        a {
+            h2{
+                color: $text-black;
+            }
+        }
+    }
+}
+.banner-4 {
+    height: 100vh;
+    background-image: url('../img/Screenshot\ 2023-03-12\ 094820.png');
+
+    h2 {
+        font-size: 72px;
+    }
+}
+
+.Plus-img {
+    padding: 40px 0;
+    background-color: $text-white;
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+.vi {
+    padding: 50px 0 0;
+
+    h2 {
+        font-size: 56px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+}
+
+.video {
+    .back-video {
+        border-radius: 50px;
+        padding: 0 20px;
+        z-index: -1;
+
+    }
+
+    @media(min-aspect-ratio:16/9) {
+        .back-video {
+            width: 100%;
+
+        }
+
+    }
+
+    @media(max-aspect-ratio:16/9) {
+        .back-video {
+            width: auto;
+        }
+
+    }
+}
+
+.big {
+    margin: 30px 0;
+    height: 100vh;
+    background-color: $text-white;
+    background-image: url('../img/501.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    // border-radius: 30px;
+
+    h2 {
+        font-size: 72px;
+        padding: 30px 0 0;
+    }
+}
+
+.screen,
+.screen-2 {
+    background-color: $text-white;
+    padding: 50px 0 0;
+    margin-top: 30px;
+
+    .xl-3 {
+        p {
+            color: $text-color;
+            font-size: 21px;
+            font-weight: 600;
+        }
+
+        span {
+            color: $text-black;
+        }
+
+    }
+}
+
+.screen-2 {
+
+    .xl-4,
+    .xl-5 {
+        p {
+            color: $text-color;
+            font-size: 21px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+
+        span {
+            color: $text-black;
+        }
+    }
+}
+
+.ceramic-text {
+    margin-top: 30px;
+    padding: 30px 0;
+    background-color: $text-white;
+    height: 120vh;
+    overflow: hidden;
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .xl-4 {
+
+        p {
+            color: $text-color;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        span {
+            color: $text-black;
+        }
+    }
+
+}
+
+.camo {
+    padding: 50px 0 0;
+
+    .camo-img {
+        background-color: $text-white;
+
+        .Main-camera,
+        .Main-camera-2 {
+            height: 90vh;
+            background-image: url('../img/505.jpg');
+            margin-left: 15%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+
+            h2 {
+                color: $text-white;
+                font-size: 56px;
+            }
+        }
+    }
+}
+
+.incredible-game {
+    margin-top: 30px;
+    padding: 30px 0;
+    background-color: $text-white;
+
+    .mamu {
+        padding: 20px 0;
+
+        .xl-4 {
+            margin-right: 30px;
+
+            p {
+                font-size: 19px;
+                font-weight: 600;
+                color: $text-color;
+            }
+
+            span {
+                color: $text-black;
+            }
+        }
+    }
+}
+
+.camo {
+    .camo-img {
+        .Main-camera-2 {
+            background-image: url('../img/514.jpg');
+
+            h2 {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+.million-img {
+    margin-top: 30px;
+    background-color: $text-white;
+    height: 50vh;
+    background-image: url('../img/506.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+    .ma-con {
+        display: inline-block;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, #2ca2b4, #5598de 24%, #7f87ff 45%, #f65aad 76%, #ec3d43);
+        font-size: 24px;
+        margin-top: 5%;
+    }
+}

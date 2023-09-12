@@ -1,0 +1,842 @@
+$text-white: #fff;
+$text-black: #000;
+$text-blue: #3459d0;
+$text-sky: #d8d8d83b;
+$text-gary: #6e6e73a8;
+$boader: #f2f2f2;
+$daay-sky: rgba(172, 226, 239, 0.808);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+  
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $text-black;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-start {
+    align-items: flex-start;
+}
+
+.align-item-end {
+    align-items: flex-end;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.xl-1 {
+    width: 8.33%;
+}
+
+.xl-2 {
+    width: 16.66%;
+}
+
+.xl-3 {
+    width: 25%;
+}
+
+.xl-4 {
+    width: 33.33%;
+}
+
+.xl-5 {
+    width: 41.66%;
+}
+
+.xl-6 {
+    width: 50%;
+}
+
+.xl-7 {
+    width: 58.33%;
+}
+
+.xl-8 {
+    width: 66.66%;
+}
+
+.xl-9 {
+    width: 75%;
+}
+
+.xl-10 {
+    width: 83.33%;
+}
+
+.xl-11 {
+    width: 91.66%;
+}
+
+.xl-12 {
+    width: 100%;
+}
+
+.border {
+    border: 10px solid $text-sky;
+    width: 100%;
+    background-color: $text-sky;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.container-2 {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: $text-sky;
+}
+
+@mixin kalu {
+    color: $text-blue;
+    font-size: 24px;
+    transition: all 1.2s;
+}
+
+@mixin vatsal {
+    background-color: $text-white;
+    padding: 10px 20px;
+    color: $text-black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin daku {
+    background-color: $text-blue;
+    padding: 10px 20px;
+    color: $text-white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin mamu {
+
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+
+}
+// header-section-1
+.main {
+    padding: 10px 0;
+
+    ul {
+        li {
+            padding: 0 20px;
+
+            a {
+                color: black;
+                font-size: 16px;
+                padding: 0 20px;
+                font-style: normal;
+                font-weight: 200;
+            }
+
+        }
+
+        li a:first-child {
+            color: rgb(79, 78, 77);
+        }
+
+    }
+
+}
+// section-2
+.all-item {
+    padding: 10px 0;
+    align-items: center;
+
+    .img-1 {
+        .text {
+            text-align: center;
+
+            h5 {
+                font-weight: 500;
+            }
+
+            span {
+                color: red;
+                text-align: center;
+            }
+
+            span:hover {
+                color: #3459d0;
+            }
+        }
+        a{
+
+            h2{
+                color: $text-black;
+            }
+        }
+    }
+}
+
+.min-text {
+    background-color: $text-sky;
+    padding: 10px 0;
+
+    p {
+        font-size: 13px;
+
+        span {
+            color: $text-blue;
+        }
+    }
+
+}
+// section-3
+.banner {
+    background-image: url('../img/hero_tile__dbi4flqyio2u_xlarge.jpg');
+    height: 130vh;
+    background-position: center;
+    position: relative;
+
+    .btn {
+        .c-btn {
+            @include vatsal;
+            transition: all 1.2s;
+
+            a {
+                color: $text-black;
+
+            }
+
+            .c-btn:hover {
+                background-color: $daay-sky;
+            }
+        }
+    }
+}
+// section-4
+.i-phone-14,
+.i-phone-15 {
+    background-color: $text-black;
+    height: 100vh;
+    background-image: url('../img/hero_iphone_14_pro__e8bufymdlseq_large.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+
+    .i-phone-14-text {
+        text-align: center;
+        padding: 50px 0;
+
+        h2 {
+            color: gray;
+        }
+
+        h3 {
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+            font-size: 48px;
+        }
+
+        .ctn-btn {
+            @include mamu;
+        }
+
+        h4 {
+            color: $text-white;
+            font-size: 24px;
+            line-height: 60px;
+        }
+
+        .btn-ctn {
+            .by-btn {
+                @include daku;
+            }
+
+            p {
+                @include kalu;
+            }
+
+            p:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+// section-5
+// .i-phone-15 {
+//     background-image: url('../img/iphone_14_hero__ceub5xriecgi_large.jpg');
+//     background-color: $text-white;
+//     background-repeat: no-repeat;
+//     height: 100vh!important;
+//     overflow: hidden;
+//     background-position: center;
+
+//     .i-phone-14-text {
+//         h3 {
+//             color: transparent;
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//             background-image: linear-gradient(90deg, #2ca2b4, #5598de 24%, #7f87ff 45%, #f65aad 76%, #ec3d43);
+//             background-color: #2ca2b4 0%;
+//         }
+
+//         h4 {
+//             color: $text-black;
+//             font-weight: 400;
+//         }
+//     }
+// }
+// section-6
+.power {
+    .xl-6 {
+        margin: auto;
+        text-align: center;
+
+        .content {
+            h2 {
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
+                color: transparent;
+                font-size: 48px;
+            }
+
+            .ctn-btn {
+                @include mamu;
+            }
+
+            h4 {
+                color: $text-black;
+                font-size: 24px;
+                line-height: 60px;
+            }
+
+            .btn-ctn {
+                .by-btn {
+                    @include daku;
+                }
+            }
+
+            p {
+                color: $text-blue;
+                font-size: 24px;
+            }
+
+            p:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+// section-7
+.con-big-img-i {
+    .guided-tour {
+        background-image: url('../img/guided_tour__c40f88on9o8y_large.jpg');
+        border-radius: 50px;
+        height: 100vh;
+        margin: 0 40px;
+        background-size: cover;
+        background-position: center;
+
+        .guided-tour-text-content {
+            margin: auto;
+            text-align: left;
+            padding-right: 50%;
+
+            h2 {
+                font-size: 36px;
+                color: $text-white;
+            }
+
+            h3 {
+                font-size: 48px;
+                color: $text-white;
+            }
+        }
+
+        .btn {
+            .c-btn {
+                @include vatsal;
+                transition: all 1.2s;
+            }
+
+            a {
+                color: $text-black;
+            }
+
+            .c-btn:hover {
+                background-color: $daay-sky;
+            }
+
+
+        }
+    }
+}
+// section-8
+.iPhone-all {
+    padding: 50px 0;
+
+    .container {
+        h2 {
+            text-align: center;
+            font-size: 48px;
+        }
+
+        .i-img {
+            padding: 50px 0;
+            text-align: center
+        }
+
+        .xl-3 {
+            padding: 0 5px;
+
+            .all-tr {
+                padding: 20px 0;
+            }
+
+            span {
+                color: red;
+                line-height: 30px;
+                font-size: 14px;
+            }
+
+            .dic-lo {
+                border-bottom: 2px solid $text-sky ;
+
+                p {
+                    font-size: 17px;
+                    margin: 20px;
+                }
+
+                h6 {
+                    line-height: 20px;
+                    margin: 11px 0;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .btn-ctn {
+                    .by-btn {
+                        @include daku;
+                        transition: all 1.2s;
+                    }
+                }
+
+                .by-btn:hover {
+                    background-color: $text-black;
+                    color: $text-white;
+                }
+
+                a .pi {
+                    color: $text-blue;
+                    transition: all 1.2s;
+                }
+
+                .pi:hover,
+                .smart:hover {
+                    text-decoration: underline;
+                    color: $text-black;
+                }
+
+            }
+
+            .sub-dec {
+                margin: 50px 0;
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+
+                p {
+                    margin: 5px;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+
+            .all-features {
+                margin: 30px 0;
+
+                h6 {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                h5 {
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: $text-gary;
+                    font-weight: 400;
+                }
+
+            }
+
+            .ios-icon {
+                margin: 30px 0;
+
+                h5 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: $text-black;
+                }
+            }
+
+            .s {
+                padding: 20px 0;
+                border-bottom: 3px solid $text-sky ;
+            }
+        }
+
+    }
+}
+// section-9
+.Trade {
+    background-color: $boader;
+    padding: 50px 0;
+
+    .trade-main {
+        background-color: $text-white;
+        padding: 50px 0 0;
+
+        .xl-6 {
+            margin: auto;
+
+            .smartphone {
+                margin: auto;
+                padding: 50px 0;
+
+                h2 {
+                    font-size: 48px;
+                }
+
+                p {
+                    font-size: 21px;
+                    margin-top: 50px;
+                }
+
+                .smart {
+                    @include kalu;
+                }
+
+                .smart:hover {
+                    text-decoration: underline;
+                }
+            }
+
+
+        }
+
+        .xl-6 {
+            .i-12-img {
+                background-position: bottom;
+                background-image: url('../img/trade_in__djk6i9425m4i_large.jpg');
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+// section-10
+.Apple {
+    background-color: $boader;
+
+    .Apple-img {
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../img/why_apple__ezn1ktvka6oi_large.jpg');
+
+        .ap-text {
+            h2 {
+                font-size: 48px;
+            }
+
+            .ti {
+                margin: 30px 0;
+
+                p {
+                    font-size: 20px;
+                }
+
+            }
+
+            .smart {
+                @include kalu;
+            }
+
+            .smart:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+// section-11
+.accessories,
+.AirTag {
+    background-color: $boader;
+    height: 100vh;
+
+    h1 {
+        padding: 50px 0;
+        font-size: 72px;
+    }
+
+    .container-2 {
+        background-color: $text-white;
+        padding: 50px 0 0;
+
+        .xl-4 {
+            margin: auto;
+            text-align: center;
+
+            h2 {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            .smart {
+                @include kalu;
+                margin: 20px 0 0;
+            }
+
+            .smart:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+}
+// section-12
+.Magic {
+    // margin-top: ;
+    background-color: $boader;
+
+    .Magic-run {
+        height: 100vh;
+        background-color: $text-white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../img/airpods__eb24cvhoe26a_large.jpg');
+
+        .ti {
+            margin: 50px 0;
+
+            h2 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .smart {
+                @include kalu;
+            }
+
+            .smart:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+// section-13
+.delivery {
+    padding: 50px 0;
+    background-color: $boader;
+
+    .logo-img {
+        width: 100px;
+        margin: auto;
+    }
+
+    .smart {
+        @include kalu;
+    }
+
+    .smart:hover {
+        text-decoration: underline;
+    }
+
+    .xl-4 {
+        padding: 20px;
+
+        h2 {
+            font-size: 30px;
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .smart {
+            @include kalu;
+        }
+
+        .smart:hover {
+            text-decoration: underline;
+        }
+    }
+
+    h2 {
+        line-height: 50px;
+        font-size: 48px;
+    }
+
+}
+// section-14
+.iOS-16 {
+    background-color: $boader;
+
+    .iOS-16-text {
+        height: 80vh;
+        padding: 10px 0 0;
+        background-color: $text-white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../img/ios16__b66zg2a3322q_large.jpg');
+
+        h2 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        .smart {
+            @include kalu;
+        }
+
+        .smart:hover {
+            text-decoration: underline;
+        }
+    }
+}
+// section-15
+.decsprision {
+    background-color: $boader;
+
+    .menu-dec-i {
+        padding: 50px 0 10px;
+        border-bottom: 2px solid $text-gary;
+
+        p {
+            padding: 10px 0;
+            font-size: 14px;
+
+        }
+    }
+}
+// section-16
+.apple-icons {
+    padding: 50px 0 5px;
+
+    h5 {
+
+
+        img {
+            width: 20px;
+        }
+
+    }
+}
+// section-17
+footer {
+    background-color: $boader;
+}
+
+.footer {
+    width: 100%;
+
+    .xl-2 {
+
+
+        h2 {
+            font-size: 14px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+            padding: 6px 0;
+            transition: all 1.2s;
+
+        }
+
+        h3:hover {
+            color: $text-blue;
+            text-decoration: underline;
+        }
+
+    }
+
+}

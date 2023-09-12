@@ -1,0 +1,611 @@
+$text-white: #fff;
+$text-black: #000;
+$text-blue: #3459d0;
+$text-sky: #d8d8d83b;
+$text-gary: #161616;
+$boader: #f2f2f2;
+$darckgray: #848488;
+$darckwhite: #efefef;
+$daay-sky: rgba(172, 226, 239, 0.808);
+
+body {
+    background-color: $text-black;
+}
+
+.border {
+    border: 10px solid $text-sky;
+    width: 100%;
+    background-color: $text-sky;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.container-2 {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: $text-black;
+}
+
+@mixin kalu {
+    color: $text-blue;
+    font-size: 24px;
+    transition: all 1.2s;
+}
+
+@mixin vatsal {
+    background-color: $text-white;
+    padding: 10px 20px;
+    color: $text-black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin daku {
+    background-color: $text-blue;
+    padding: 10px 20px;
+    color: $text-white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+@mixin mamu {
+
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.main {
+    padding: 10px 0;
+    background-color: $text-black;
+
+    i {
+        color: $text-white;
+    }
+
+    ul {
+        li {
+            padding: 0 20px;
+
+            a {
+                color: $text-white;
+                font-size: 16px;
+                padding: 0 20px;
+                font-style: normal;
+                font-weight: 200;
+                transition: all 1.2s;
+            }
+
+            a:hover {
+                color: $text-blue;
+            }
+        }
+
+    }
+
+}
+
+.all-item {
+    position: fixed;
+    padding: 10px 0;
+    align-items: center;
+
+    .img-1 {
+        .text {
+            text-align: center;
+
+            h5 {
+                font-weight: 500;
+            }
+
+            span {
+                color: red;
+                text-align: center;
+            }
+
+            span:hover {
+                color: #3459d0;
+            }
+        }
+    }
+}
+
+.iphone-logo {
+    h2 {
+        color: $darckwhite;
+        font-size: 24px;
+    }
+
+    .i-buy-sec {
+        h3 {
+            font-size: 16px;
+            color: $darckgray;
+            padding: 0 10px;
+            font-weight: 400;
+            transition: all 1.2s;
+        }
+
+        h3:hover {
+            color: $boader;
+        }
+
+        a {
+            color: $text-white;
+            font-size: 14px;
+            padding: 0 10px;
+            transition: all 1.2s;
+        }
+
+        a:hover {
+            color: $text-blue;
+        }
+
+        .btn-ctn {
+            .by-btn {
+                @include daku;
+            }
+
+            p {
+                @include kalu;
+            }
+
+            p:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.min-text {
+    border-top: 0.5px solid $text-white ;
+    padding: 15px 0;
+    background-color: $text-gary;
+    color: $text-white;
+
+    p {
+        font-size: 13px;
+
+        span {
+            color: $text-blue;
+        }
+
+        span:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.banner-2 {
+    background-image: url('../img-2/101.jpg');
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    h2 {
+        color: $text-white;
+        font-size: 72px;
+        line-height: 100px;
+    }
+}
+
+.iphone-2-diffrant {
+    background-color: $text-gary;
+    padding: 60px 0;
+
+    h2 {
+        color: $darckwhite;
+        font-size: 48px;
+    }
+
+    span {
+        color: $darckgray;
+        font-size: 24px;
+    }
+
+    .btn-ctn {
+        margin-top: 50px;
+
+        .by-btn {
+            @include daku;
+        }
+
+        p {
+            @include kalu;
+        }
+
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.Dynamic {
+    background-color: $text-gary;
+
+    .Dynamic-con {
+        padding: 50px 100px;
+        background-color: $text-black;
+
+        h2 {
+            font-size: 72px;
+            color: $darckwhite;
+        }
+
+        .dy-co {
+            margin-top: 100px;
+
+            p {
+                color: $darckgray;
+                font-size: 24px;
+
+            }
+
+            span {
+                color: $boader;
+            }
+        }
+
+        .dy-img {
+            padding-top: 50px;
+        }
+
+        .two-dy-img-co {
+            .xl-6 {
+                padding: 50px;
+
+                p {
+                    font-size: 24px;
+                    color: $darckgray;
+
+                    span {
+                        color: $darckwhite;
+                    }
+                }
+            }
+        }
+
+        .ios {
+            p {
+                color: $darckgray;
+                font-size: 24px;
+            }
+
+            span {
+                font-size: 24px;
+                color: $darckwhite;
+            }
+        }
+    }
+}
+
+.camo,
+.como-2 {
+    padding: 50px 0 0;
+    background-color: $text-gary;
+
+    .camo-img {
+        background-color: $text-black;
+
+        .Main-camera,
+        .Main-camera-2 {
+            height: 90vh;
+            background-image: url('../img-2/105.jpg');
+            margin-left: 15%;
+            background-repeat: no-repeat;
+            background-color: $text-black;
+            background-size: cover;
+            padding: 50px;
+
+            h2 {
+                color: $text-black;
+                font-size: 56px;
+            }
+        }
+    }
+}
+
+.advanced {
+    background-color: $text-gary;
+
+    .two-dy-img-co {
+        padding: 100px 0;
+        background-color: $text-black;
+
+        .xl-6 {
+            img {
+                background-size: cover;
+            }
+        }
+
+        p {
+            font-size: 24px;
+            color: $darckgray;
+            font-weight: 500;
+        }
+
+        span {
+            color: $text-white;
+        }
+
+    }
+
+}
+
+.camo {
+    .camo-img {
+        .Main-camera-2 {
+            background-image: url('../img-2/116.jpg');
+
+            h2 {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+.water {
+    background-color: $text-gary;
+    padding: 50px 0;
+
+    .water-2 {
+        height: 100vh;
+        background-position: center;
+        background-image: url('../img-2/114.jpg');
+        padding: 50px 0;
+
+        h2 {
+            font-size: 48px;
+            text-align: center;
+            height: 100%;
+            margin: 28% 0;
+            color: $text-white;
+        }
+
+    }
+}
+
+.iPhone-all {
+    padding: 50px 0;
+    background-color: $text-gary;
+    color: $text-white;
+    h2 {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .i-img {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .xl-3 {
+        padding: 0 5px;
+
+        .all-tr {
+            padding: 20px 0;
+        }
+
+        span {
+            color: red;
+            line-height: 30px;
+            font-size: 14px;
+        }
+
+        .dic-lo {
+            border-bottom: 2px solid $text-sky ;
+
+            p {
+                font-size: 17px;
+                margin: 20px;
+            }
+
+            h6 {
+                line-height: 20px;
+                margin: 11px 0;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .btn-ctn {
+                .by-btn {
+                    @include daku;
+                    transition: all 1.2s;
+                }
+            }
+
+            .by-btn:hover {
+                background-color: $text-black;
+                color: $text-white;
+            }
+
+            a .pi {
+                color: $text-blue;
+                transition: all 1.2s;
+            }
+
+            .pi:hover,
+            .smart:hover {
+                text-decoration: underline;
+                color: $text-black;
+            }
+
+        }
+
+        .sub-dec {
+            margin: 50px 0;
+
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            p {
+                margin: 5px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        .all-features {
+            margin: 30px 0;
+
+            img {
+                padding: 50px 0 0;
+            }
+
+            h6 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            h5 {
+                font-size: 14px;
+                line-height: 30px;
+                color: $text-gary;
+                font-weight: 400;
+            }
+
+        }
+
+        .ios-icon {
+            margin: 30px 0;
+
+            h5 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        .s {
+            padding: 20px 0;
+            border-bottom: 3px solid $text-sky ;
+        }
+    }
+
+}
+
+.delivery {
+    padding: 50px 0;
+    background-color: $text-black;
+    color: $text-white;
+
+    .logo-img {
+        width: 100px;
+        margin: auto;
+    }
+
+    .smart {
+        @include kalu;
+    }
+
+    .smart:hover {
+        text-decoration: underline;
+    }
+
+    .xl-4 {
+        padding: 20px;
+
+        h2 {
+            font-size: 30px;
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .smart {
+            @include kalu;
+        }
+
+        .smart:hover {
+            text-decoration: underline;
+        }
+    }
+
+    h2 {
+        line-height: 50px;
+        font-size: 48px;
+    }
+
+}
+
+.decsprision {
+    background-color: $text-black;
+    color: $text-white;
+
+    .menu-dec-i {
+        padding: 50px 0 10px;
+        border-bottom: 1px solid $text-white;
+
+        p {
+            padding: 10px 0;
+            font-size: 14px;
+
+        }
+    }
+}
+
+.apple-icons {
+    padding: 50px 0 5px;
+
+    h5 {
+        img {
+            width: 20px;
+        }
+    }
+}
+
+footer {
+    background-color: $text-black;
+    color: $text-white;
+}
+
+.footer {
+    width: 100%;
+
+    .xl-2 {
+
+
+        h2 {
+            font-size: 14px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+            padding: 6px 0;
+            transition: all 1.2s;
+
+        }
+
+        h3:hover {
+            color: $text-blue;
+            text-decoration: underline;
+        }
+
+    }
+
+}
